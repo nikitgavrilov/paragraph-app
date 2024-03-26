@@ -5,8 +5,8 @@
 ## Содержание
 - [Технологии](#технологии)
 - [Использование](#использование)
-- [Зачем разработан проект](#зачем-разработан-проект)
-- [Команда проекта](#команда-проекта)
+- [Зачем вы разработали этот проект](#зачем-вы-разработали-этот-проект)
+- [Источники](#источники)
 
 
 
@@ -16,24 +16,29 @@
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [RTK Query](https://redux-toolkit.js.org/rtk-query/overview)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [json-server](https://www.npmjs.com/package/json-server)
 
 ## Использование
 
-### Установка зависимостей
-Установите папку node_modules при помощи команды yarn в консоли:
+Установите node_modules с помощью команды:
 ```sh
 yarn
 ```
-
-### Запуск backend сервера
-Теперь, вам необходимо запустить json-server. Для этого в файле package.json есть следующий скрипт:
+Выполните команду yarn server. Это запустит сервер на который будут идти запросы по адресу http://localhost:4173/posts
 ```sh
 yarn server
 ```
-
-### Запуск приложения
-На этом моменте у вас запустится сервер по адресу http://localhost:4173/posts. Далее нужно запустить само приложение:
+Выполните команду yarn dev. Это запустит Development сервер
 ```sh
 yarn dev
 ```
-Теперь в терминале вам будет доступна ссылка http://localhost:3000. Просто перейдите по ней. Теперь, вам доступно приложение.
+
+### Зачем вы разработали этот проект?
+Проект предназначен для практики и обучению современным Frontend технологиям, таким как <b>NextJS, TypeScript, Redux Toolkit, RTK Query, Tailwind CSS и json-server</b>
+
+### Источники
+При создании этого проекта я вдохновлялся и брал идеи от следующих авторов:
+- [Полный курс по NextJS[RED Group]](https://youtu.be/g1mPqu7u39o)
+- [Новый NextJS[RED Group]](https://youtu.be/bxnx92gxAe8)
+- [ReactJS фундаментальный курс от А до Я[Ulbi TV]](https://youtu.be/GNrdg3PzpJQ?list=PL6DxKON1uLOHya4bDIynPTCwZHrezUlFs)
+
